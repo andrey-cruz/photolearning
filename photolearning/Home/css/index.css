@@ -1,0 +1,174 @@
+
+a{
+    margin-left: 0px;
+    width: 1000px;
+}
+
+.container{
+    margin-left: 370px;
+}
+
+p{
+    margin-right: 80px;
+    margin-left: 70px;
+    font-size: medium;
+}
+
+form{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-fluid{
+    margin-left: 80px;
+}
+
+.form-control{
+    width: 1000px;
+}
+
+footer{
+    background-color: rgb(32, 42, 51);
+    color: rgb(231, 231, 231);
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    margin-bottom: end;
+}
+
+.card_mb-3{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.card-img-top{
+    width: 1000px;
+    margin-left: 380px;
+}
+
+.card-body{
+    margin-left: 370px;
+}
+
+.card-text{
+    margin-left: 0px;
+}
+
+
+
+li{
+    list-style:none;
+}
+
+
+.nav_tabs{
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+    margin-left: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.tab_label{
+    display: block;
+    width: 130px;
+    background-color: rgb(32, 42, 51);
+    padding: 30px;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.nav_tabs .rd_tab { 
+display:none;
+position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+background-color: #e54e43;
+color:#fff;}
+
+.tab-content{
+border-top: solid 5px #e54e43;
+background-color: #fff;
+display: none;
+position: absolute;
+height: 320px;
+width: 600px;
+left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+display: block;
+}
+.tab-content h2{
+padding: 10px;
+color: #87d3b7;
+}
+.tab-content article{
+padding: 10px;
+color: #555;
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+    footer{
+        display: block;}
+
+    nav{
+        margin-left: 0px;
+    }
+
+    .card{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .card-body{
+        margin-left: 10px;
+    }
+    .btn{
+        width: 350px;
+        font-size: smaller;
+    }
+    
+    .card-img-top{
+        width: 280px;
+        display: flex;
+    }
+    .card-text{
+        font-size: smaller;
+    }
+
+    form{
+        margin-left: 0px;
+        font-size: small;
+        
+    }
+
+    .forms{
+        margin-left: -300px;
+    }
+
+    .form-control{
+        width:500px;
+
+    }
+
+    
+
+}
