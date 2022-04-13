@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <nav class="navbar navbar-expand-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./login.html">PHOTOLEARNING</a>
+        <a class="navbar-brand" href="./index.html">PHOTOLEARNING</a>
         </div>
       </div>
     </nav>
@@ -32,13 +32,13 @@
       <h2>Página de perfil</h2>
       <br>
       <div class="mb-3">
-
-        <h4>Nome</h4>
-
+        <img src="/Home/img/perfil.png" alt="foto projeto"> <br><br>
         <br>
 
+        <h4>Edite suas informações:</h4>
+        <br>
         <div class="form-floating mb-3">
-            <input type="file" class="form-control" id="floatingInput" placeholder="Upload de foto" required>
+            <input type="file" class="form-control" id="floatingInput" placeholder="Upload de foto" required style="height: 60px;">
             <label for="floatingInput">Foto de perfil</label>
           </div>
 
@@ -54,14 +54,19 @@
 
           <div class="form-floating mb-3">
             <input type="password" class="form-control" id="floatingInput" placeholder="A93490FF0233rrd" required>
-            <label for="floatingInput">Senha</label>
+            <label for="floatingInput">Senha atual</label>
           </div>
-        
+
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingInput" placeholder="A93490FF0233rrd" required>
+            <label for="floatingInput">Senha nova</label>
+          </div>
+
 
         <button type="submit" class="btn btn-primary">Salvar</button>
         <br>
         <br>
-        <a href="./rec.html" style="color:firebrick">Esqueci a senha</a>
+
       </div>
       
     </form>
