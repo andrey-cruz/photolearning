@@ -20,7 +20,3 @@ Este projeto foi desenvolvido com objetivo de desenvolver habilidade e conhecime
 
 ## Contribuidores
 * Andrey Cruz 
-* João Victor Lopes
-* Mateus Dalla Silveira
-* Marcelo Buehring
-* Luiz Gomez
