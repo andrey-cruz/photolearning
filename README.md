@@ -17,7 +17,6 @@ Este projeto foi desenvolvido com objetivo de desenvolver habilidade e conhecime
 ## Tecnologias
 - HTML
 - CSS
-- Javascript
 
 ## Contribuidores
 * Andrey Cruz 
